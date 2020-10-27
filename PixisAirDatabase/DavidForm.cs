@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace PixisAirDatabase
 {
-    //Test Comments!
-    public partial class Form1 : Form
+    public partial class DavidForm : Form
     {
-        public Form1()
+        public DavidForm()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            //Stuff
         }
     }
 }
