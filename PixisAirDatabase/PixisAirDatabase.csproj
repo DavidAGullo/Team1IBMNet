@@ -78,6 +78,9 @@
     <Compile Include="SeanForm.Designer.cs">
       <DependentUpon>SeanForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AlexisForm.resx">
+      <DependentUpon>AlexisForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="mainForm.resx">
       <DependentUpon>mainForm.cs</DependentUpon>
     </EmbeddedResource>

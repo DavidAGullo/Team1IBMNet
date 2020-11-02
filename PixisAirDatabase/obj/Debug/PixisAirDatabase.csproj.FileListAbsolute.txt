@@ -1,0 +1,11 @@
+C:\Users\1383611\Source\Repos\Team1IBMNet2\PixisAirDatabase\bin\Debug\PixisAirDatabase.exe.config
+C:\Users\1383611\Source\Repos\Team1IBMNet2\PixisAirDatabase\bin\Debug\PixisAirDatabase.exe
+C:\Users\1383611\Source\Repos\Team1IBMNet2\PixisAirDatabase\bin\Debug\PixisAirDatabase.pdb
+C:\Users\1383611\Source\Repos\Team1IBMNet2\PixisAirDatabase\obj\Debug\PixisAirDatabase.csprojAssemblyReference.cache
+C:\Users\1383611\Source\Repos\Team1IBMNet2\PixisAirDatabase\obj\Debug\PixisAirDatabase.AlexisForm.resources
+C:\Users\1383611\Source\Repos\Team1IBMNet2\PixisAirDatabase\obj\Debug\PixisAirDatabase.mainForm.resources
+C:\Users\1383611\Source\Repos\Team1IBMNet2\PixisAirDatabase\obj\Debug\PixisAirDatabase.Properties.Resources.resources
+C:\Users\1383611\Source\Repos\Team1IBMNet2\PixisAirDatabase\obj\Debug\PixisAirDatabase.csproj.GenerateResource.cache
+C:\Users\1383611\Source\Repos\Team1IBMNet2\PixisAirDatabase\obj\Debug\PixisAirDatabase.csproj.CoreCompileInputs.cache
+C:\Users\1383611\Source\Repos\Team1IBMNet2\PixisAirDatabase\obj\Debug\PixisAirDatabase.exe
+C:\Users\1383611\Source\Repos\Team1IBMNet2\PixisAirDatabase\obj\Debug\PixisAirDatabase.pdb
