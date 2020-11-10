@@ -13,10 +13,10 @@ namespace PixisAirDatabase
     //Main Form Created By David
     public partial class mainForm : Form
     {
-        DavidForm dForm = new DavidForm();
-        SeanForm sForm = new SeanForm();
-        AlexisForm aForm = new AlexisForm();
-        JoshuaForm jForm = new JoshuaForm();
+        
+        
+        
+        
         public mainForm()
         {
             InitializeComponent();
@@ -29,21 +29,25 @@ namespace PixisAirDatabase
 
         private void button1_Click(object sender, EventArgs e)
         {
+            DavidForm dForm = new DavidForm();
             dForm.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            SeanForm sForm = new SeanForm();
             sForm.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
+            AlexisForm aForm = new AlexisForm();
             aForm.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
+            JoshuaForm jForm = new JoshuaForm();
             jForm.Show();
         }
     }
