@@ -39,10 +39,10 @@
             this.searchMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.formsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.flightTextBox = new System.Windows.Forms.TextBox();
             this.employeesFormMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.regionalFormMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.stateFormMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.flightTextBox = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,6 +72,7 @@
             this.searchButton.TabIndex = 2;
             this.searchButton.Text = "Search";
             this.searchButton.UseVisualStyleBackColor = true;
+            this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
             // 
             // employeeFormButton
             // 
@@ -126,13 +127,13 @@
             // searchMenuItem
             // 
             this.searchMenuItem.Name = "searchMenuItem";
-            this.searchMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.searchMenuItem.Size = new System.Drawing.Size(109, 22);
             this.searchMenuItem.Text = "Search";
             // 
             // exitMenuItem
             // 
             this.exitMenuItem.Name = "exitMenuItem";
-            this.exitMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitMenuItem.Size = new System.Drawing.Size(109, 22);
             this.exitMenuItem.Text = "Exit";
             this.exitMenuItem.Click += new System.EventHandler(this.exitMenuItem_Click);
             // 
@@ -145,13 +146,6 @@
             this.formsToolStripMenuItem.Name = "formsToolStripMenuItem";
             this.formsToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
             this.formsToolStripMenuItem.Text = "Forms";
-            // 
-            // flightTextBox
-            // 
-            this.flightTextBox.Location = new System.Drawing.Point(48, 71);
-            this.flightTextBox.Name = "flightTextBox";
-            this.flightTextBox.Size = new System.Drawing.Size(116, 20);
-            this.flightTextBox.TabIndex = 7;
             // 
             // employeesFormMenuItem
             // 
@@ -173,6 +167,13 @@
             this.stateFormMenuItem.Size = new System.Drawing.Size(211, 22);
             this.stateFormMenuItem.Text = "Employee\'s State Form";
             this.stateFormMenuItem.Click += new System.EventHandler(this.stateFormMenuItem_Click);
+            // 
+            // flightTextBox
+            // 
+            this.flightTextBox.Location = new System.Drawing.Point(48, 71);
+            this.flightTextBox.Name = "flightTextBox";
+            this.flightTextBox.Size = new System.Drawing.Size(116, 20);
+            this.flightTextBox.TabIndex = 7;
             // 
             // AlexisForm
             // 

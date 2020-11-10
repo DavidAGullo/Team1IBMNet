@@ -9,3 +9,6 @@ C:\Users\1383611\Source\Repos\Team1IBMNet2\PixisAirDatabase\obj\Debug\PixisAirDa
 C:\Users\1383611\Source\Repos\Team1IBMNet2\PixisAirDatabase\obj\Debug\PixisAirDatabase.csproj.CoreCompileInputs.cache
 C:\Users\1383611\Source\Repos\Team1IBMNet2\PixisAirDatabase\obj\Debug\PixisAirDatabase.exe
 C:\Users\1383611\Source\Repos\Team1IBMNet2\PixisAirDatabase\obj\Debug\PixisAirDatabase.pdb
+C:\Users\1383611\source\repos\Team1IBMNet2\PixisAirDatabase\bin\Debug\IBM.Data.DB2.iSeries.dll
+C:\Users\1383611\source\repos\Team1IBMNet2\PixisAirDatabase\bin\Debug\IBM.Data.DB2.iSeries.xml
+C:\Users\1383611\source\repos\Team1IBMNet2\PixisAirDatabase\obj\Debug\PixisAirDatabase.csproj.CopyComplete
