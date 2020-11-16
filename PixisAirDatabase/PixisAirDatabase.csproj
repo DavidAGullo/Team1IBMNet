@@ -85,6 +85,9 @@
     <EmbeddedResource Include="AlexisForm.resx">
       <DependentUpon>AlexisForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DavidForm.resx">
+      <DependentUpon>DavidForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="mainForm.resx">
       <DependentUpon>mainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -97,6 +100,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SeanForm.resx">
+      <DependentUpon>SeanForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

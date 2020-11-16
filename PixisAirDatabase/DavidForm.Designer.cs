@@ -28,12 +28,95 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.lBoxData = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tBoxState = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // lBoxData
+            // 
+            this.lBoxData.FormattingEnabled = true;
+            this.lBoxData.Location = new System.Drawing.Point(23, 22);
+            this.lBoxData.Name = "lBoxData";
+            this.lBoxData.Size = new System.Drawing.Size(524, 381);
+            this.lBoxData.TabIndex = 0;
+            this.lBoxData.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(573, 74);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(38, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "State: ";
+            // 
+            // tBoxState
+            // 
+            this.tBoxState.Location = new System.Drawing.Point(576, 91);
+            this.tBoxState.Name = "tBoxState";
+            this.tBoxState.Size = new System.Drawing.Size(188, 20);
+            this.tBoxState.TabIndex = 2;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(576, 158);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(188, 41);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Alexis";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(576, 205);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(188, 41);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "Joshua";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(576, 252);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(188, 41);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "Sean";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // DavidForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.tBoxState);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lBoxData);
+            this.Name = "DavidForm";
             this.Text = "DavidForm";
+            this.Load += new System.EventHandler(this.DavidForm_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.ListBox lBoxData;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox tBoxState;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }
